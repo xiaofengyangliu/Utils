@@ -62,4 +62,18 @@ public class RespVO {
 	public void setResult(ResultInfo result) {
 		this.result = result;
 	}
+
+	@Override
+	public String toString() {
+		return "RespVO{" +
+				"jobid='" + jobid + '\'' +
+				", bizno='" + bizno + '\'' +
+				", requestsn='" + requestsn + '\'' +
+				", responsetime='" + responsetime + '\'' +
+				", consumestate='" + consumestate + '\'' +
+				", errcode='" + errcode + '\'' +
+				", errmsg='" + errmsg + '\'' +
+				", result=" + result +
+				'}';
+	}
 }
